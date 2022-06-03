@@ -61,7 +61,7 @@ export default {
     this.option.series[0].itemStyle.color=this.gauge_data.range[i][2]}
     
     //console.log("from set interval",this.gauge_data.data)
-},100)
+},10)
     },
   data() {
     return {

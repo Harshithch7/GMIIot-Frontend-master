@@ -687,6 +687,7 @@ export default {
           console.log("Production loss Data:",response);
           console.log("Production loss (%):",response.data.data["Production loss (%):"]);
           console.log("Prod component:",this.parameter.data);
+          //console.log("TEST");
     }); 
     
   },
