@@ -60,7 +60,7 @@ export default {
     {if(this.gauge_data.data>this.gauge_data.range[i][0] && this.gauge_data.data<=this.gauge_data.range[i][1])
     this.option.series[0].itemStyle.color=this.gauge_data.range[i][2]}
     
-    //console.log("from set interval",this.gauge_data.data)
+    console.log("from set interval",this.gauge_data.data)
 },100)
     },
   data() {
